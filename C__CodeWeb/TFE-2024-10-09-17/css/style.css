@@ -1,0 +1,22 @@
+.list-no-style {
+    list-style: none;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(2px);
+    mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    height: 50px;
+}
+
+.navbar_list_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_list_container li {
+    padding: 10px;
+}
+
